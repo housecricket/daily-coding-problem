@@ -13,7 +13,7 @@ def solution(list_nums):
         if j == list_nums[j-1]:
             continue
         # put each integer on it's place
-		# decrease i, because aa[i] is a new integer now and we need to
+		# decrease i, because list_nums[i] is a new integer now and we need to
 		# process it one more time
         temp = list_nums[i]
         list_nums[i] = list_nums[j-1]
