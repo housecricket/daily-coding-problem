@@ -63,11 +63,6 @@ const isValid = function(rules) {
             retval = false
         }
 
-        // console.log(rule)
-        // console.log(ruleAnalyzer) 
-        // console.log(points)
-        // console.log(x_s, y_s)
-        // console.log(delta_x, delta_y)
     }
 
     return retval
